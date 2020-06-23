@@ -1,0 +1,142 @@
+$display: flex;
+
+
+.page-header {
+    background-color: $background-color;
+    border-bottom: 1px solid #ECECEC;
+   
+}
+.container-header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-wrapper {
+    background-color: $background-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: $display;
+    align-items: center; 
+}
+
+
+.page-header .nav {
+    display: $display;
+    align-items: center;
+} 
+
+.site-nav {
+    margin-left: 86px;
+}
+
+.site-nav-item .studio {
+    position: relative;
+}
+
+.site-nav .item {
+    margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+    margin-right: 0px;
+}
+
+.site-nav-list a {
+    color: $title-text-color;
+}
+
+.site-nav-item {
+    text-decoration: none;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: $title-text-color;
+   
+&:hover {
+    color: $accent-color;
+    }
+}
+
+.site-nav .item {
+    position: relative;  
+}
+.current {
+    color: $accent-color;
+
+
+&::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: $accent-color;
+    left: 0px;
+    top: 76px;
+    border-radius: 2px;
+    }
+}
+
+.auth-nav {
+    margin-left: auto;
+}
+
+.auth-nav-item {
+    text-decoration: none;
+}
+
+.auth-nav .item {
+    margin-right: 30px;
+}
+
+.auth-nav .item + .item {
+    margin-right: 0px;
+}
+
+.site-nav,
+.auth-nav {
+    display: $display;
+    letter-spacing: 0.02em;
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.auth-nav a {
+    color: $secondary-text-color;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+        fill: $accent-color;
+    }
+}
+
+.container-header {
+    display: $display;
+}
+
+.envelope-icon {
+    width: 16px;
+    height: 11px;
+    margin-right: 10px;
+    fill: currentColor;
+    vertical-align: middle;
+}
+
+.phone-icon {
+    width: 10px;
+    height: 15px;
+    margin-right: 10px;
+    fill: currentColor;
+    vertical-align: middle
+}

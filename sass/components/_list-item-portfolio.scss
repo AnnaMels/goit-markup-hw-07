@@ -1,0 +1,32 @@
+.list-item {
+    color: $title-text-color;
+    list-style: none;
+}
+
+.list-item-portfolio {
+    list-style: none;
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+
+    p {
+        color: $secondary-text-color;
+    }
+}
+
+.list-item-portfolio:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.list-item-portfolio:hover .secondary-text,
+.list-item-portfolio:hover .text-description::before {
+    content: '';
+    opacity: 1;
+    color: $background-color;
+    transform: translateY(0); 
+}
+
+.list-item-portfolio:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+
+.subscription {
+    color: $background-color;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.copy {
+    color: $footer-copyright-color;
+    font-size: 12px;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    padding-bottom: 21px;
+    display: $display;
+    justify-content: center;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.list {
+    background-color: $team-section-background;
+}
+
+.mailing {
+    margin-top: 0px;
+    margin-bottom: 0;
+    display: $display;
+    align-items: flex-end;
+
+    input {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 16px;
+        width: 358px;
+        height: 50px;
+        background-color: $footer-color;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        margin-top: 20px;
+    } 
+}
+
+.subscribe {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0;
+    padding: 0;
+    border-radius: 4px;
+    background-color: $accent-color;
+    color: $background-color;
+    margin-left: 12px;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;   
+    display: $display;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.subscribe-icon {
+    margin-left: 10px;
+}
