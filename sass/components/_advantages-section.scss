@@ -1,0 +1,48 @@
+.benefits-list__item,
+.services-list-item,
+.team-list-item,
+.footer-contacts-list-item,
+.footer-socials-item {
+  list-style-type: none;
+}
+
+.benefits-list {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.benefits-list__item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 120px) / 4);
+}
+
+.benefits-list__svg-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: rgba(245, 244, 250, 1);
+}
+
+.benefits-list__title {
+  color: $black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin: 0 0 10px 0;
+}
+
+.benefits-list__description {
+  color: $gray;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  margin: 0;
+}
